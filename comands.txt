@@ -1,0 +1,5 @@
+go mod init nome do arquivo -> cria o arquivo que armazenas os modulos;
+go build -> Compilar e executar: Se você quiser compilar seu programa em um arquivo executável, use o comando go build. Isso criará um arquivo executável no mesmo diretório;
+go run arquivo.go -> executa o arquivo sem um compilador;
+go get `url do github` -> para instalar um modulo externo;
+go mod tidy -> remove todas as dependencias que nao estao sendo usadas, e para usar novamente usar o go get;
