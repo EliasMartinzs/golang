@@ -40,5 +40,4 @@ func main() {
 	// error pesonalizado usar um pacote `errors`
 	var erro2 error = errors.New("Erro interno")
 	fmt.Println(erro2)
-
 }
